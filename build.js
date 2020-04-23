@@ -8,10 +8,10 @@ const data = {
   name: chalk.white('              Ben Ng'),
   handle: chalk.white('plumcube ') + chalk.red('⬢'),
   work: chalk.white('Director of Engineering @ BeeswaxIO Inc.'),
-  twitter: chalk.gray('https://twitter.com/') + chalk.cyan('plumcube'),
-  npm: chalk.gray('https://npmjs.com/') + chalk.red('~plumcube'),
-  github: chalk.gray('https://github.com/') + chalk.green('plumcube'),
   linkedin: chalk.gray('https://linkedin.com/in/') + chalk.cyan('nycben'),
+  twitter: chalk.gray('https://twitter.com/') + chalk.cyan('plumcube'),
+  github: chalk.gray('https://github.com/') + chalk.green('plumcube'),
+  npm: chalk.gray('https://npmjs.com/') + chalk.red('~plumcube'),
   web: chalk.cyan('https://plumcube.com'),
   npx: chalk.green('npx') + ' ' + chalk.white('@plumcube/card'),
   labelWork: chalk.white.bold('       Work:'),
@@ -26,10 +26,10 @@ const data = {
 const output = `${data.name} / ${data.handle}
 
 ${data.labelWork}  ${data.work}
-${data.labelTwitter}  ${data.twitter}
-${data.labelnpm}  ${data.npm}
-${data.labelGitHub}  ${data.github}
 ${data.labelLinkedIn}  ${data.linkedin}
+${data.labelTwitter}  ${data.twitter}
+${data.labelGitHub}  ${data.github}
+${data.labelnpm}  ${data.npm}
 ${data.labelWeb}  ${data.web}
 
 ${data.labelCard}  ${data.npx}`;
