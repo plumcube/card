@@ -1,0 +1,27 @@
+{
+  "name": "@plumcube/card",
+  "bin": "./bin/cli.js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node ./bin/cli.js",
+    "prepare": "npm run build",
+    "build": "node build.js"
+  },
+  "keywords": [
+    "card",
+    "npm",
+    "npm card",
+    "npx",
+    "npx card",
+    "business card"
+  ],
+  "author": "Ben Ng <ben@plumcube.com> (https://plumcube.com)",
+  "license": "ISC",
+  "dependencies": {
+    "boxen": "^4.2.0",
+    "chalk": "^4.0.0"
+  }
+}
