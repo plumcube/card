@@ -7,7 +7,7 @@ const path = require('path')
 const data = {
   name: chalk.white('              Ben Ng'),
   handle: chalk.white('plumcube ') + chalk.red('⬢'),
-  work: chalk.white('Director of Engineering @ BeeswaxIO Inc.'),
+  work: chalk.white('Software Development Manager @ Amazon'),
   linkedin: chalk.gray('https://linkedin.com/in/') + chalk.cyan('nycben'),
   twitter: chalk.gray('https://twitter.com/') + chalk.cyan('plumcube'),
   github: chalk.gray('https://github.com/') + chalk.green('plumcube'),
